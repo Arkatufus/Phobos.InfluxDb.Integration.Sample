@@ -28,8 +28,6 @@ using OpenTracing;
 using OpenTracing.Util;
 using Phobos.Actor;
 using Phobos.Actor.Configuration;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.AspNet.Endpoints;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.Hosting;
 using Phobos.Tracing.Scopes;
 
 
@@ -192,8 +190,6 @@ namespace Phobos.Prometheus.Integration.Sample
 
     public static class AppMetricsExtensions
     {
-        private static readonly string DefaultConfigSection = nameof(MetricEndpointsOptions);
-
         public static IServiceCollection AddMetrics(this IServiceCollection services, Action<IMetricsBuilder> setupMetrics)
         {
             var builder = new MetricsBuilder();

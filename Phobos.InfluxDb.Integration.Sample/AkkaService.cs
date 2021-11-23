@@ -6,12 +6,10 @@ using Akka.Util;
 using Akka.Event;
 using Akka.Routing;
 using App.Metrics.Timer;
-using OpenTracing.Util;
 using Petabridge.Cmd.Cluster;
 using Petabridge.Cmd.Host;
 using Petabridge.Cmd.Remote;
 using Phobos.Actor;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.Hosting;
 
 namespace Phobos.Prometheus.Integration.Sample
 {

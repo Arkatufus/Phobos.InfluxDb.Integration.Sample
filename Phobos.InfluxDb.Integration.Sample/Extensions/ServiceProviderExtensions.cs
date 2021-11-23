@@ -7,8 +7,6 @@ using App.Metrics;
 using App.Metrics.Reporting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.AspNet;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.Hosting;
 
 namespace Phobos.Prometheus.Integration.Sample.Extensions
 {

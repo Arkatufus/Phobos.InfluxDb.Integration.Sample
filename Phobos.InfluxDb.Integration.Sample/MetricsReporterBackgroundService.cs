@@ -7,9 +7,8 @@ using App.Metrics;
 using App.Metrics.Counter;
 using App.Metrics.Logging;
 using App.Metrics.Reporting;
-using Phobos.Prometheus.Integration.Sample.App.Metrics.Hosting;
 
-namespace Phobos.Prometheus.Integration.Sample.App.Metrics.AspNet
+namespace Phobos.Prometheus.Integration.Sample
 {
     public class MetricsReporterBackgroundService : BackgroundService
     {

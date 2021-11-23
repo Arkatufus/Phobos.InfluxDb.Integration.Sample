@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Phobos.Prometheus.Integration.Sample.App.Metrics.Hosting
+namespace Phobos.Prometheus.Integration.Sample
 {
-    public abstract class BackgroundService : IHostedService, IDisposable
+    public abstract class BackgroundService : IDisposable
     {
         private Task _executingTask;
         private readonly CancellationTokenSource _stoppingCts = new CancellationTokenSource();

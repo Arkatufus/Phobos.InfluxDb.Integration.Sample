@@ -624,21 +624,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AkkaService.cs" />
-    <Compile Include="App.Metrics\AspNet\DefaultEnvResponseWriter.cs" />
-    <Compile Include="App.Metrics\AspNet\DefaultMetricsResponseWriter.cs" />
-    <Compile Include="App.Metrics\AspNet\Endpoints\Internal\MetricsEndpointsOptionsSetup.cs" />
-    <Compile Include="App.Metrics\AspNet\Endpoints\MetricEndpointsOptions.cs" />
-    <Compile Include="App.Metrics\AspNet\Endpoints\MetricsEndpointsHostingOptions.cs" />
-    <Compile Include="App.Metrics\AspNet\HeaderNames.cs" />
-    <Compile Include="App.Metrics\AspNet\IEnvResponseWriter.cs" />
-    <Compile Include="App.Metrics\AspNet\Tracing\IgnoredRoutesConfiguration.cs" />
-    <Compile Include="App.Metrics\AspNet\Tracing\Internal\MetricsTrackingMiddlewareOptionsSetup.cs" />
-    <Compile Include="App.Metrics\AspNet\Tracing\MetricsWebTrackingOptions.cs" />
-    <Compile Include="App.Metrics\AspNet\IMetricsResponseWriter.cs" />
-    <Compile Include="App.Metrics\Hosting\BackgroundService.cs" />
-    <Compile Include="App.Metrics\Hosting\IHostApplicationLifetime.cs" />
-    <Compile Include="App.Metrics\Hosting\IHostedService.cs" />
-    <Compile Include="App.Metrics\AspNet\MetricsReporterBackgroundService.cs" />
+    <Compile Include="BackgroundService.cs" />
+    <Compile Include="MetricsReporterBackgroundService.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
