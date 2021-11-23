@@ -1,0 +1,7 @@
+packages/
+Phobos.Prometheus.Integration.Sample/bin/
+Phobos.Prometheus.Integration.Sample/obj/
+.vs/
+.idea/
+Phobos.InfluxDb.Integration.Sample/bin/
+Phobos.InfluxDb.Integration.Sample/obj/
